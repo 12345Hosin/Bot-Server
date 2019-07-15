@@ -3525,7 +3525,7 @@ return channel.send("")
     }
     )});
 client.on('message', message => {
-      if(message.content.startsWith ("-marry")) {
+      if(message.content.startsWith ("amarry")) {
       if(!message.channel.guild) return message.reply('** This command only for servers **')
       var proposed = message.mentions.members.first()
      
@@ -3552,4 +3552,4 @@ message.channel.awaitMessages(filte, { max: 1, time: 15000, errors: ['time'] })
         
   }
 });
-client.login('NTk1MzMxOTQ3MTIzODM0OTYx.XRpcQQ.yK0JmcqiAPCc0szBnlDvcK2SXOU')
+client.login('NTY1NjI5MDQ4MzcwMzY0NDM5.XSzfYQ.2tIEiIcWANkYIRBhEAvaqqa91ek')
